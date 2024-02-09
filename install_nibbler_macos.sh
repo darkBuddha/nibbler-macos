@@ -77,7 +77,7 @@ if [ -d "Nibbler.app" ]; then
     echo -e "✅ Old Nibbler build has been deleted.\n"
 fi
 
-echo "⏳ Cloning Nibbler sources..."
+echo "⏳ Cloning latest Nibbler sources..."
 git clone git@github.com:rooklift/nibbler.git nibbler_src
 echo -e "✅ Nibbler sources have been cloned.\n"
 
