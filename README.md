@@ -1,6 +1,6 @@
 # Nibbler for macOS
 
-This script installs the lastest [Nibbler](https://github.com/rooklift/nibbler) release on your Mac, with a single command:
+This script installs the lastest release on your Mac, with a single command:
 
 ```bash
 curl -s https://raw.githubusercontent.com/darkBuddha/nibbler-macos/main/install_nibbler_macos.sh | bash
@@ -19,8 +19,8 @@ Everything is installed automatically, if needed ([Homebrew](https://brew.sh/)).
 
 ## Features
 
-* builds and installs the latest Nibbler directly from the official repository
-* automatically detects/installs/configures [Leela Chess Zero](https://lczero.org/) (Lc0) and [Stockfish](https://stockfishchess.org/), and configures them for use with Nibbler
+* builds directly from the [official repository](https://github.com/rooklift/nibbler)
+* automatically detects/installs/configures [Leela Chess Zero](https://lczero.org/) (Lc0) and [Stockfish](https://stockfishchess.org/)
 * works on Apple Silicon and Intel
 * adds Nibbler version to `package.json`, so the "about" window shows the correct version instead of `1.0.0`, makes it easier to see if you are running the latest version
 * HQ icon from Nibbler project
