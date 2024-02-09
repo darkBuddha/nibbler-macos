@@ -10,7 +10,7 @@ curl -s https://raw.githubusercontent.com/darkBuddha/nibbler-macos/main/install_
 
 ## Requirements
 
-Everything is installed automatically, if needed.
+Everything is installed automatically, if needed ([Homebrew](https://brew.sh/)).
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/)
