@@ -5,7 +5,7 @@ dependencies=(git node npm rsvg-convert lc0 stockfish)
 missing_commands=()
 
 check_command() {
-    local cmd=\$1
+    local cmd=$1
     if command -v "$cmd" >/dev/null 2>&1; then
         echo -e "✅ $cmd"
     else
