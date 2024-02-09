@@ -10,7 +10,11 @@ check_command() {
         echo -e "✅ $cmd"
     else
         echo "❌ $cmd is not installed (or not in \$PATH)."
-        missing_commands+=("$cmd")
+        if $cmd == "rsvg-convert"; then
+            missing_commands+=("librsvg")
+        else
+            missing_commands+=("$cmd")
+        fi
     fi
 }
 
