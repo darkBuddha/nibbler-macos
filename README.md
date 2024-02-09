@@ -1,8 +1,10 @@
 # Nibbler macOS install script
 
-This script will install the lastest [Nibbler](https://github.com/rooklift/nibbler) with [Leela Chess Zero](https://lczero.org/) and [Stockfish](https://stockfishchess.org/) on your macOS system with a single command:
+This script will install the lastest [Nibbler](https://github.com/rooklift/nibbler) with [Leela Chess Zero](https://lczero.org/) (Lc0) and [Stockfish](https://stockfishchess.org/) on your macOS system with a single command:
 
-`curl -s https://raw.githubusercontent.com/darkBuddha/nibbler-macos/main/install_nibbler_macos.sh | bash`
+```bash
+curl -s https://raw.githubusercontent.com/darkBuddha/nibbler-macos/main/install_nibbler_macos.sh | bash
+```
 
 ## Requirements
 
