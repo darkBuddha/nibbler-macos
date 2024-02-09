@@ -1,6 +1,6 @@
 # Nibbler for macOS
 
-This script installs the lastest [Nibbler](https://github.com/rooklift/nibbler) release on your macOS system with a single command:
+This script installs the lastest [Nibbler](https://github.com/rooklift/nibbler) release on your Mac with a single command:
 
 ```bash
 curl -s https://raw.githubusercontent.com/darkBuddha/nibbler-macos/main/install_nibbler_macos.sh | bash
