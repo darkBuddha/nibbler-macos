@@ -10,8 +10,8 @@ curl -s https://raw.githubusercontent.com/darkBuddha/nibbler-macos/main/install_
 
 ## Features
 
-* builds directly from the [official repository](https://github.com/rooklift/nibbler)
-* automatically detects/installs/configures [Leela Chess Zero](https://lczero.org/) (Lc0) and [Stockfish](https://stockfishchess.org/)
+* builds directly from [official repository](https://github.com/rooklift/nibbler)
+* automatically detects/installs/configures [Stockfish](https://stockfishchess.org/) and [Leela Chess Zero](https://lczero.org/) (Lc0)
 * works on Apple Silicon and Intel
 * adds Nibbler version to `package.json`, so the "about" window shows the correct version instead of `1.0.0`, makes it easier to see if you are running the latest version
 * HQ icon from Nibbler project
